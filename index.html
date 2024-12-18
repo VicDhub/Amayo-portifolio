@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/d2798cef27.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="my logo.png" class="logo">
+
+                  <ul id="sidemenu">
+                   
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                  </ul>
+     
+                  <i class="fa-sharp fa-solid fa-bars"onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>EXECUTIVE GRAPHIC DESIGNS</p>
+                <h1>Hi, Am <span> Victor Amayo </span><br> From Kenya</h1>
+            </div>
+        </div>   
+    </div>
+    <!-----------------------------about-------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="20221118_150543.jpg">
+                </div>
+
+                <div class="about-col-2">
+                <h1 class="sub-title">About us</h1>
+                <p>Executive  Designs is an upcoming corporate limited composed of creative individuals who have multi-facets skill in  Design.
+                    These technocrats have diverse skills ranging from Web Design,UI/UX Design,Video Editing,tV/FILM Productions,script Writing
+                    which encompasses their techniques in designs.
+                    
+                </p><br>
+                
+                <P>The  CEO of  the corporate is Victor Amayo</P>
+                <p>We are available in Nairobi CBD,Kenya.</p>
+            
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>GRAPHICS DESIGNS</span><br> Designing graphics elements 
+                        such as Logos,posters,brochures,,banners,<br>
+                        magazines<br> just to mention but a few and
+                         also
+                          motion graphics and animations</li>
+                    <li><span>UI/UX</span><br> Designing Web/App Interfaces</li>
+                    <li><span>VIDEO EDITING</span><br> Edits videos anad Performs videography. We majorly use ADOBE PREMIER PRO and ADOBE AFTER EFFECT</li>
+                    <li><span>WEB DEVELOPER</span><br> Develops Websites</li>
+                    <li><span>TV/FILM PRODUCTIONS</span><br> ProducING for TV/FilmS</li>
+                    <li><span>SCRIPT WRITER</span><br> Writes script for TV/Film Production</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2021-2025</span><br> Designing graphics elements</li>
+                    <li><span>2021-2025</span><br> Designing Web/App Interfaces</li>
+                    <li><span>2021-2025</span><br> Edits videos anad Performs videography</li>
+                    <li><span>2021-2021</span><br> Develops Websites</li>
+                    <li><span>2021-2025</span><br> Producer for TV/Radio</li>
+                    <li><span>2021-2025</span><br> Writes script for TV/Film Production</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>University Graduates</span><br> Barchelor of Science in GRAPHIC COMMUNICATION AND ADVERTISING(MAIN),RONGO
+                        UNIVERSITY.
+                    </li>
+                    
+                </ul>
+              </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-----------------------------------services-------------->
+
+      <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Our Services</h1>
+            <div class="services-list">
+            <div>
+               
+                <i class="fa-solid fa-pen-nib"></i>
+                    <h2>GRAPHIC DESIGN</h2>
+                    <P> Designing graphics elements such as Logos,posters,brochures,fliers,banners,magazines just to mention but a few and also motion graphic and animations</P>
+                
+                          <a href="#">Learn More</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+
+                            <h2>WEB DESIGN</h2>
+                            <P>Develops Websites</P>
+                        
+                                  <a href="#">Learn More</a>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-crop"></i>
+                                    <h2>UI/UX DESIGNS</h2>
+                                    <P> Designing Web/App Interfaces</P>
+                                
+                                          <a href="#">Learn More</a>
+                                        </div>
+                                        <div>
+                                            <i class="fa-solid fa-video"></i>
+                                            <h2>VIDEO EDITING</h2>
+                                            <P>Edits videos anad Performs videography. We majorly use ADOBE PREMIER PRO and ADOBE AFTER EFFECT</P>
+                                        
+                                                  <a href="#">Learn More</a>
+                                                </div>
+                                                <div>
+                                                    <i class="fa-solid fa-film"></i>
+                                                    <h2>TV/FILM PRODUCTIONS</h2>
+                                                    <P>Undertakes TV/FILM Productions</P>
+                                                
+                                                          <a href="#">Learn More</a>
+                                                        </div>
+                                                        <div>
+                                                            <i class="fa-solid fa-pen-nib"></i>
+                                                            <h2>SCRIPT WRITER FOR TV/FILM PRODUCTIONS</h2>
+                                                            <P>Writing Scrips for TV/Film Productions</P>
+                                                        
+                                                                  <a href="#">Learn More</a>
+                                                                </div>
+            </div>
+
+        </div>
+
+      </div>
+      <!-----------------------------portfolio-------------->
+
+        <div id="porfolio">
+            <div class="container"></div>
+            <h1 class="sub-title">Our Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="ABRA K VS RIGGY G.png">
+                     
+                    <div class="layer">
+                        <p>This is Rigathi Gachagua and Kithure Kindiki</p>
+                        <a href="#"><i class="fa-solid fa-code"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="US ELECTIONS.png">
+                </div>
+                <div class="work">
+                    <img src="RONGO DESIGNERS.png">
+                </div>
+                <div class="work">
+                    <img src="STARSHINE.png">
+                    
+                </div>
+                <div class="work">
+                    <img src="KINDIKI.png">
+                    
+                </div>
+                <div class="work">
+                    <img src="RAILA ON ADANI.png">
+                    
+                </div>
+                <div class="work">
+                    <img src="RONGO CHOCOLATES.png">
+                    
+                </div>
+                <div class="work">
+                    <img src="MIL 1.png">
+                    
+                </div>
+                <div class="work">
+                    <img src="MIL 2.png">
+                    
+                </div>
+                <div class="work">
+                    <img src="MIL3.png">
+                    
+                </div>
+                <div class="work">
+                    <img src="RUEC BROCHURE.png">
+                    
+                </div>
+                <div class="work">
+                    <img src="saf.png">
+                    
+                </div>
+                <div class="work">
+                    <img src="Screenshot (42).png">
+            
+                </div>
+                <div class="work">
+                    <img src="new dp.png">
+                    
+                </div>
+                <div class="work">
+                    <img src="MAFI MAFI.png">
+                    
+                </div>
+                <div class="work">
+                    <img src="NIKE.png">
+                
+                </div>
+               
+                <div class="work">
+                    <img src="MAGAZINE COVER.png">
+                
+                </div>
+                <div class="work">
+                    <img src="HEALTH.png">
+                
+                </div>
+                <div class="work">
+                    <img src="INDAH 1.png">
+                
+                </div>
+                <div class="work">
+                    <img src="INDAH.png">
+                
+                </div>
+                <div class="work">
+                    <img src="Ballon d'OR 2024.png">
+                
+                </div>
+                <div class="work">
+                    <img src="BONGA POINTS.png">
+                
+                </div>
+                <div class="work">
+                    <img src="CUSTOMER CARE.png">
+                
+                </div>
+                <div class="work">
+                    <img src="my logo.png">
+                
+                </div>
+                
+               
+                </div>
+               
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+
+
+        </div>
+
+        <!---------------------------contact----------->
+        
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                    <h1 class="sub-title">Contact us</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>victoramayore@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0746598027</p>
+                    <div class="social-icons">
+                       <a href=" https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                       <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                       <a href=""><i class="fa-brands fa-youtube"></i></a>
+                       <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                       <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                       <a href=""><i class="fa-solid fa-envelope"></i></a>
+                       <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                       <a href=""><i class="fa-brands fa-telegram"></i></a>
+                       <a href=""><i class="fa-brands fa-snapchat"></i></a>
+                    
+                    </div>
+
+                    <a href="c:\Users\user\Documents\MORE INFORMATION.docx" download="" class="btn btn2">Download More Information</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Messsage"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg">Hello</span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright to Victor Amayo</p><i class="fa-solid fa-heart"></i>
+            </div>
+        </div>
+    <script>
+       var tablinks=document.getElementsByClassName("tab-links");
+       var tabcontents=document.getElementsByClassName("tab-contents");
+
+
+       function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+       }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL='https://script.google.com/macros/s/AKfycbz5P_yRJKbo55y-NYl7aN6EbT5fno9QfamdfEvJMbxH77HvC8ru2xKqTeHpcZlV2_US3A/exec'
+            const form=Document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+            
+            
+             form.addEventListener('submit',e={
+
+             
+                
+                e.preventDefault()
+                fetch(scriptURL, {method:"POST",body: newFormData(form)})
+                .then(respose={
+                    msg.innerHTML="Message sent succesfully"
+                    setTimeout (function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error=console.error('Error!',error.message)
+                
+            
+              })
+    </script>
+    
+    
+</body>
+</html>
